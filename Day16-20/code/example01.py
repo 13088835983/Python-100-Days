@@ -61,7 +61,7 @@ def main():
         pyplot.plot(x_data, y_data, styles[index])
     pyplot.legend(legends)
     pyplot.xticks(numpy.arange(1, 7, step=1))
-    pyplot.yticks(numpy.arange(0, 751, step=50))
+    pyplot.yticks(numpy.arange(0, 751, step=50)) 
     pyplot.show()
 
 
